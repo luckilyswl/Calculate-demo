@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/click_yellow"
+        android:gravity="center"
+        android:text="@string/C"
+        android:textColor="#6f6f6f"
+        android:textSize="30sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/buttonC"
+        android:background="@drawable/click_white"
+        android:gravity="center"
+        android:text="@string/num0"
+        android:typeface="sans"
+        android:textSize="30sp"
+        android:textColor="#6f6f6f"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%"
+        android:layout_toRightOf="@+id/buttonC" />
+
+    <Button
+        android:id="@+id/buttonDot"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@id/button0"
+        android:background="@drawable/click_yellow"
+        android:gravity="center"
+        android:text="@string/Dot"
+        android:textSize="30sp"
+        android:textColor="#6f6f6f"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%"
+        android:layout_toRightOf="@id/button0" />
+
+    <Button
+        android:id="@+id/buttonEqual"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@id/buttonDot"
+        android:background="#58a6e3 "
+        android:gravity="center"
+        android:text="@string/equal"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%"
+        android:layout_toRightOf="@id/buttonDot" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_above="@id/buttonC"
+        android:background="@drawable/click_white"
+        android:gravity="center"
+        android:text="@string/num1"
+        android:typeface="sans"
+        android:textColor="#6f6f6f"
+        android:textSize="30sp"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_above="@id/button0"
+        android:layout_toEndOf="@id/button1"
+        android:background="@drawable/click_white"
+        android:gravity="center"
+        android:text="@string/num2"
+        android:textSize="30sp"
+        android:textColor="#6f6f6f"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%"
+        android:layout_toRightOf="@id/button1" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_above="@id/buttonDot"
+        android:layout_toEndOf="@id/button2"
+        android:background="@drawable/click_white"
+        android:gravity="center"
+        android:text="@string/num3"
+        android:textSize="30sp"
+        android:typeface="sans"
+        android:textColor="#6f6f6f"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%"
+        android:layout_toRightOf="@id/button2" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_above="@id/buttonEqual"
+        android:layout_toEndOf="@id/button3"
+        android:background="@drawable/click_blue_light"
+        android:gravity="center"
+        android:text="@string/add"
+        android:textColor="#019eff"
+        android:textSize="40sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%"
+        android:layout_toRightOf="@id/button3" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_above="@id/button1"
+        android:background="@drawable/click_white"
+        android:gravity="center"
+        android:text="@string/num4"
+        android:textSize="30sp"
+        android:typeface="sans"
+        android:textColor="#6f6f6f"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_above="@id/button2"
+        android:layout_toEndOf="@id/button4"
+        android:background="@drawable/click_white"
+        android:gravity="center"
+        android:text="@string/num5"
+        android:textSize="30sp"
+        android:typeface="sans"
+        android:textColor="#6f6f6f"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%"
+        android:layout_toRightOf="@id/button4" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_above="@id/button3"
+        android:layout_toEndOf="@id/button5"
+        android:background="@drawable/click_white"
+        android:gravity="center"
+        android:text="@string/num6"
+        android:textSize="30sp"
+        android:typeface="sans"
+        android:textColor="#6f6f6f"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%"
+        android:layout_toRightOf="@id/button5" />
+
+    <Button
+        android:id="@+id/buttonDec"
+        android:layout_above="@id/buttonAdd"
+        android:layout_toEndOf="@id/button6"
+        android:background="@drawable/click_blue_light"
+        android:gravity="center"
+        android:text="@string/dec"
+        android:textColor="#019eff"
+        android:textSize="40sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%"
+        android:layout_toRightOf="@id/button6" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="81dp"
+        android:layout_above="@id/button4"
+        android:background="@drawable/click_white"
+        android:gravity="center"
+        android:text="@string/num7"
+        android:textSize="30sp"
+        android:typeface="sans"
+        android:textColor="#6f6f6f"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="81dp"
+        android:layout_height="81dp"
+        android:layout_above="@id/button5"
+        android:layout_marginStart="0dp"
+        android:layout_toEndOf="@id/button7"
+        android:background="@drawable/click_white"
+        android:gravity="center"
+        android:text="@string/num8"
+        android:textSize="30sp"
+        android:typeface="sans"
+        android:textColor="#6f6f6f"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%"
+        android:layout_marginLeft="0dp"
+        android:layout_toRightOf="@id/button7" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_above="@+id/button6"
+        android:layout_toEndOf="@id/button8"
+        android:background="@drawable/click_white"
+        android:gravity="center"
+        android:text="@string/num9"
+        android:textSize="30sp"
+        android:typeface="sans"
+        android:textColor="#6f6f6f"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%"
+        android:layout_toRightOf="@id/button8" />
+
+    <Button
+        android:id="@+id/buttonMulti"
+        android:layout_above="@id/buttonDec"
+        android:layout_toEndOf="@id/button9"
+        android:background="@drawable/click_blue_light"
+        android:gravity="center"
+        android:text="@string/multi"
+        android:textColor="#019eff"
+        android:textSize="40sp"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%"
+        android:layout_toRightOf="@id/button9" />
+
+    <Button
+        android:id="@+id/buttonAC"
+        android:layout_above="@+id/button7"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/click_blue_light"
+        android:gravity="center"
+        android:text="@string/AC"
+        android:textSize="30sp"
+        android:textColor="#e47c5e"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/buttonBracketLeft"
+        android:layout_above="@id/button8"
+        android:layout_toEndOf="@id/buttonAC"
+        android:background="@drawable/click_blue_light"
+        android:gravity="center"
+        android:text="@string/BracketLeft"
+        android:textSize="30sp"
+        android:typeface="sans"
+        android:textColor="#019eff"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%"
+        android:layout_toRightOf="@id/buttonAC" />
+
+    <Button
+        android:id="@+id/buttonBracketRight"
+        android:layout_above="@id/button9"
+        android:layout_toEndOf="@id/buttonBracketLeft"
+        android:background="@drawable/click_blue_light"
+        android:gravity="center"
+        android:text="@string/BracketRight"
+        android:textSize="30sp"
+        android:textColor="#019eff"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%"
+        android:layout_toRightOf="@id/buttonBracketLeft" />
+
+    <Button
+        android:id="@+id/buttonDiv"
+        android:layout_above="@id/buttonMulti"
+        android:layout_toEndOf="@id/buttonBracketRight"
+        android:background="@drawable/click_blue_light"
+        android:gravity="center"
+        android:text="@string/div"
+        android:textSize="30sp"
+        android:textColor="#019eff"
+        android:typeface="sans"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="25%"
+        android:layout_toRightOf="@id/buttonBracketRight" />
+
+
+
+    <TextView
+        android:id="@+id/text_view"
+        android:background="#FAFFF0"
+        android:layout_alignParentTop="true"
+        android:gravity="end|center_vertical"
+        app:autoSizeMaxTextSize="80sp"
+        app:autoSizeMinTextSize="20sp"
+        app:autoSizeStepGranularity="4sp"
+        app:autoSizeTextType="uniform"
+        app:layout_heightPercent="25%"
+        app:layout_widthPercent="100%" />
+
+</android.support.percent.PercentRelativeLayout>

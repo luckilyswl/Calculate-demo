@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">计算机</string>
+    <string name="AC">AC</string>
+    <string name="AddDec">+/-</string>
+    <string name="equal">=</string>
+    <string name="add">+</string>
+    <string name="dec">-</string>
+    <string name="multi">*</string>
+    <string name="div">/</string>
+    <string name="Dot">.</string>
+    <string name="num0">0</string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="num4">4</string>
+    <string name="num5">5</string>
+    <string name="num6">6</string>
+    <string name="num7">7</string>
+    <string name="num8">8</string>
+    <string name="num9">9</string>
+    <string name="BracketLeft">(</string>
+    <string name="BracketRight">)</string>
+    <string name="Mod">%</string>
+    <string name="Delete">删除</string>
+    <string name="C">C</string>
+</resources>
